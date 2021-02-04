@@ -1,0 +1,24 @@
+header {
+  position: fixed;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 960px;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+
+  a {
+    text-decoration: none;
+    text-shadow: 1px 1px rgba(#000000, 0.3);
+    color: inherit;
+    color: white;
+  }
+
+  h1 {
+    margin: 0.5rem 0;
+  }
+}
