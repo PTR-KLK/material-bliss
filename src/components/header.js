@@ -7,7 +7,6 @@ const Header = ({ siteTitle }) => (
     <h1>
       <Link to="/">{siteTitle}</Link>
     </h1>
-    <Link to="/#about">About</Link>
   </header>
 )
 
